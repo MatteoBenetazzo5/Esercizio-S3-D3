@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/watchlist.css" />
+    <title>WATCHLIST FILM & SERIE</title>
+  </head>
+  <body>
+    <header>
+      <h1>WATCHLIST</h1>
+      <form id="watch-form">
+        <input
+          id="title-input"
+          type="text"
+          placeholder="Titolo (film/serie)"
+          required
+          maxlength="40"
+        />
+        <button>AGGIUNGI</button>
+      </form>
+    </header>
+
+    <main>
+      <h2>I tuoi titoli</h2>
+
+      <section>
+        <ul id="watch-list">
+          <!-- qui verranno creati via JS tutti i <li>....</li> della lista dei film-->
+        </ul>
+      </section>
+    </main>
+
+    <footer>
+      <p>Segna completato con un click - Rimuovi con il bottone</p>
+    </footer>
+
+    <!-- QUI: tag corretto -->
+    <script src="./scripts/watchlist.js"></script>
+  </body>
+</html>
